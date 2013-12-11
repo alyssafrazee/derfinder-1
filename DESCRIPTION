@@ -11,7 +11,8 @@ Authors@R: c(person("Leonardo", "Collado-Torres", role = c("aut", "cre"), email
     email = "jtleek@gmail.com"))
 Depends:
     R(>= 3.0.2),
-    Rcpp (>= 0.10.4)
+    Rcpp (>= 0.10.4),
+    RcppArmadillo
 LinkingTo: Rcpp, RcppArmadillo
 Imports:
     IRanges,
@@ -27,8 +28,7 @@ Imports:
     AnnotationDbi,
     scales,
     bumphunter (>= 1.3.3),
-    Hmisc,
-    RcppArmadillo
+    Hmisc
 Suggests:
     microbenchmark,
     TxDb.Hsapiens.UCSC.hg19.knownGene,
